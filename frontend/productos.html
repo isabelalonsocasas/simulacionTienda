@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Carrito - Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+
+    <img src="ELCARRITO.png" alt="Imagen carrito">
+
+    <h1>Tienda Carrito</h1>
+    <p>Catálogo de ropa</p>
+
+     <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="productos.html">Productos</a> |
+      <a href="contacto.html">Contacto</a> |
+      <a id="link-sesion" href="login.html">Iniciar sesión</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Catálogo de productos</h2>
+
+      <table border="1">
+        <caption>Ropa disponible</caption>
+
+        <tr>
+          <th>ID</th>
+          <th>Producto</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th>Comprar</th>
+        </tr>
+
+        <tr>
+          <td>001</td>
+          <td>Camiseta básica</td>
+          <td>Camiseta de algodón</td>
+          <td>12 €</td>
+          <td><button id="btn-001">Añadir</button></td>
+        </tr>
+
+        <tr>
+          <td>002</td>
+          <td>Sudadera</td>
+          <td>Sudadera con capucha</td>
+          <td>30 €</td>
+          <td><button id="btn-002">Añadir</button></td>
+        </tr>
+
+        <tr>
+          <td>003</td>
+          <td>Sudadera X</td>
+          <td>Sudadera oversight</td>
+          <td>45 €</td>
+          <td><button id="btn-003">Añadir</button></td>
+        </tr>
+
+        <tr>
+          <td>004</td>
+          <td>Camiseta X</td>
+          <td>Camiseta oversight</td>
+          <td>50 €</td>
+          <td><button id="btn-004">Añadir</button></td>
+        </tr>
+
+      </table>
+
+      <p id="mensaje-productos"></p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Isabel Alonso Casas - Práctica 5 /p>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

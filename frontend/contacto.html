@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Carrito - Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+
+    <img src="ELCARRITO.png" alt="Imagen carrito" width="300">
+
+    <h1>Tienda Carrito</h1>
+    <p>Contacto</p>
+
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="productos.html">Productos</a> |
+      <a href="contacto.html">Contacto</a> |
+      <a id="link-sesion" href="login.html">Iniciar sesión</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Formulario de contacto</h2>
+
+      <form id="form-contacto">
+
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </p>
+
+        <p>
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </p>
+
+        <p>
+          <label for="motivo">Motivo:</label>
+          <select id="motivo" name="motivo">
+            <option value="consulta">Consulta</option>
+            <option value="pedido">Pedido</option>
+            <option value="incidencia">Incidencia</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+          <input type="checkbox" id="acepto" name="acepto" required>
+          <label for="acepto">Acepto las condiciones</label>
+        </p>
+
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+
+      </form>
+
+      <p id="mensaje-contacto"></p>
+
+    </section>
+
+  </main>
+
+  <footer>
+     <p>© 2026 Isabel Alonso Casas - Práctica 5 /p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

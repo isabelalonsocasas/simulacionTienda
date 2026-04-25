@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Carrito - Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="ELCARRITO.png" alt="Imagen carrito" width="300">
+
+  <h1>Tienda Carrito</h1>
+  <p>Panel administrador</p>
+
+ <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="productos.html">Productos</a> |
+      <a href="contacto.html">Contacto</a> |
+      <a id="link-sesion" href="login.html">Iniciar sesión</a>
+    </nav>
+
+</header>
+
+<main>
+  <section>
+    <h2>Todos los carritos</h2>
+
+    <table border="1">
+      <caption>Carritos creados</caption>
+      <thead>
+        <tr>
+          <th>ID Carrito</th>
+          <th>Correo</th>
+          <th>ID Usuario</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-carritos"></tbody>
+    </table>
+    
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Isabel Alonso Casas - Práctica 5 /p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Carrito - Iniciar compra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="ELCARRITO.png" alt="Imagen carrito" width="300">
+
+  <h1>Tienda Carrito</h1>
+  <p>Iniciar compra</p>
+
+   <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="productos.html">Productos</a> |
+      <a href="contacto.html">Contacto</a> |
+      <a id="link-sesion" href="login.html">Iniciar sesión</a>
+    </nav>
+
+</header>
+
+<main>
+  <section>
+    <h2>Introduce tu correo</h2>
+
+    <p>
+      Si ya tienes un carrito creado, se recuperará automáticamente.
+      Si no tienes carrito, se creará uno nuevo.
+    </p>
+
+    <form id="form-login">
+      <p>
+        <label for="correo-login">Correo electrónico:</label>
+        <input type="email" id="correo-login" required>
+      </p>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <p id="mensaje-login"></p>
+  </section>
+
+  <section>
+    <h2>Administrador</h2>
+    <a href="admin.html">
+        <button>Ver todos los carritos</button>
+    </a>
+  </section>
+</main>
+
+<footer>
+   <p>© 2026 Isabel Alonso Casas - Práctica 5 /p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
