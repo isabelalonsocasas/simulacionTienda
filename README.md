@@ -14,18 +14,16 @@ La aplicación permite gestionar carritos de compra asociados a un usuario ident
 ## 2. Estructura del proyecto
 
 El repositorio está organizado de la siguiente forma:
-backend/
-└── proyecto Spring Boot (API REST)
-
-index.html
-productos.html
-carrito.html
-login.html
-admin.html
-contacto.html
-style.css
-script.js
-README.md
+- backend
+- index.html
+- productos.html
+- carrito.html
+- login.html
+- admin.html
+- contacto.html
+- style.css
+- script.js
+- README.md
 
 El frontend se encuentra en la raíz del proyecto para su despliegue mediante GitHub Pages.
 
