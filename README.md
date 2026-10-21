@@ -358,7 +358,7 @@ El frontend está desplegado mediante GitHub Pages.
 
 ### URL
 
-[Ir a la web](https://isabelalonsocasas.github.io/Simulacion_tienda/)
+[Ir a la web](https://isabelalonsocasas.github.io/simulacionTienda/)
 
 ### Consideración importante
 
